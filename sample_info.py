@@ -7,23 +7,25 @@ BOT_TOKEN = '123456:LuciferMoringstar_Robot-zyx57W2v1u123ew11'
 USERBOT_STRING_SESSION = 'LuciferMoringstar_Robot'
 
 # Bot settings
-CACHE_TIME = 300
-USE_CAPTION_FILTER = False
+CACHE_TIME = 8
+USE_CAPTION_FILTER = True
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 987654321]
-CHANNELS = [-10012345678, -100987654321, 'Mo_Tech_YT']
-AUTH_USERS = []
-AUTH_CHANNEL = None
+ADMINS = [1451925211]
+CHANNELS = [-1001630703079]
+AUTH_USERS = [1451925211]
+AUTH_CHANNEL = [-1001648918784]
 
 # MongoDB information
-DATABASE_URI = "mongodb://[LuciferMoringstar_Robot:LuciferMoringstar_Robot@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'LuciferMoringstar_Robot'
+DATABASE_URI1 = "mongodb+srv://AB:AB@cluster0.4uolmfe.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URI2 = "mongodb+srv://CD:CD@cluster0.ltufhai.mongodb.net/?retryWrites=true&w=majority"
+
+DATABASE_NAME = 'mhlinksfilterbot'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I am mhlinks official bot**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
